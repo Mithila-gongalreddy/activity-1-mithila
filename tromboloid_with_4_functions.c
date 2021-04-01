@@ -4,9 +4,9 @@ int height(int h);
 int depth(int d);
 int breadth(int b);
 int volume(int h,int d,int b);
-int main()
+void main()
 {
-int h,d,b.v;
+int h,d,b,v;
 h=height(h);
 d=depth(d);
 b=breadth(b);
@@ -37,3 +37,4 @@ int v;
 v=((h*d*b)+d/b)/3;
 return v;
 }
+
