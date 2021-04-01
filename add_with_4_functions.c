@@ -1,18 +1,17 @@
 //Write a program to add two user input numbers using 4 functions.
-(Type your program here)
 #include<stdio.h>
 int input()
 {
   int a;
-  printf(“enter first number:\n”);
-  scanf(“%d”,&a);
+  printf("enter first number:\n");
+  scanf("%d",&a);
   return a;
 }
 int input1()
 {
   int b;
-  printf(“enter second number:\n”);
-  scanf(“%d”,&b);
+  printf("enter second number:\n");
+  scanf("%d",&b);
   return b;
 }
  int find_sum(int a, int b)
@@ -23,7 +22,7 @@ int input1()
 }
 void output(int a,int b, int c)
 {
-  printf(“sum of%d%d is %d\n”,a,b,c);
+  printf("sum of%d%d is %d\n",a,b,c);
 }
 int main()
 {
@@ -34,3 +33,4 @@ int main()
   output(x,y,z);
   return 0;
 }
+
