@@ -1,8 +1,8 @@
 //Write a program to find the sum of n different numbers using 4 functions
 #include<stdio.h>
-Int main()
+int main()
 {
-Int a,b,sum;
+int a,b,sum;
 printf("enter the number\n");
 scanf("%d%d",&a,&b);
 sum=a+b;
