@@ -1,8 +1,7 @@
 //WAP to find the distance between two points using structures and 4 functions.
-(Type your program here)
 #include<stdio.h>
 #include<math.h>
-struct Coordinate
+struct coordinate
 {
 float x;
 float y;
@@ -23,9 +22,9 @@ float d;
 d=sqrt((c2.x-c1.x)*(c2.x-c1.x)+(c2.y-c1.y)*(c2.y-c1.y));
 return d;
 }
-void output(point dist)
+void output(float dist)
 {
-printf("distance= %f",dist);
+printf("distance=%f",dist);
 }
 int main()
 {
@@ -37,3 +36,4 @@ dist=find_distance(c1,c2);
 output(dist);
 return 0;
 }
+
